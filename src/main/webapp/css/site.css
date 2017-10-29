@@ -1,0 +1,123 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+}
+
+.smallImage {
+	width : 100px;
+}
+
+.background {
+	background-color: LightGray;
+}
+
+.small {
+	width : 20%;
+}
+
+.equal {
+	width : 33.333333%;
+}
+
+tr, table, td {
+	border-spacing : 0px;
+	margin : 0px;
+	padding : 0px;
+}
+
+.blank {
+	height: 20px;
+}
+
+.left {
+	text-align: left;
+	padding: 3px;
+}
+
+.recipe {
+	display: inline-block;
+	background-color: lightgray;
+	width: 230px;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.tableImage {
+	width: 350px;
+}
+
+.recipe > img {
+	width: 230px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.picture {
+	float: left;
+	align: left;
+	display: inline-block;
+}
+
+.right {
+	display: inline-block;
+}
+
+.ingredients, .prep {
+	display = block;
+}
